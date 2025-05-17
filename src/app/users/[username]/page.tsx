@@ -1,13 +1,6 @@
 import CardList from "@/components/CardList";
 import { Badge } from "@/components/ui/badge";
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb";
+
 import {
   HoverCard,
   HoverCardContent,
@@ -20,6 +13,14 @@ import { Button } from "@/components/ui/button";
 import EditUser from "@/components/EditUser";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import AppLineChart from "@/components/AppLineChart";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
 
 const SingleUserPage = () => {
   return (
@@ -160,7 +161,7 @@ const SingleUserPage = () => {
           <div className="bg-primary-foreground p-4 rounded-lg space-y-2">
             <div className="flex items-center gap-2">
               <Avatar className="size-12">
-                <AvatarImage src="https://avatars.githubusercontent.com/u/1486366" />
+                <AvatarImage src="https://github.com/shadcn.png" />
                 <AvatarFallback>JD</AvatarFallback>
               </Avatar>
               <h1 className="text-xl font-semibold">John Doe</h1>

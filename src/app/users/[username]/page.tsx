@@ -167,10 +167,12 @@ const SingleUserPage = () => {
               <h1 className="text-xl font-semibold">John Doe</h1>
             </div>
             <p className="text-sm text-muted-foreground">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel
-              voluptas distinctio ab ipsa commodi fugiat labore quos veritatis
-              cum corrupti sed repudiandae ipsum, harum recusandae ratione ipsam
-              in, quis quia.
+              John is a seasoned developer and team lead with over 10 years of
+              experience in full-stack development. He is known for his
+              strategic thinking, clean code practices, and ability to mentor
+              junior engineers. At the company, John plays a pivotal role in
+              leading product architecture and ensuring high code quality across
+              all major projects.
             </p>
           </div>
           {/* CHART CONTAINER */}

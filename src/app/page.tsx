@@ -30,3 +30,4 @@ const Homepage = () => {
 };
 
 export default Homepage;
+//future work - ADD the breadcrumb component in the homepage for easy navigation
